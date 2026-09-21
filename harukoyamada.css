@@ -1,0 +1,52 @@
+body {
+    background: #fff;
+}
+
+#container {
+    width: 830px;
+    height: 1366px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#menu {
+    padding-top: 20px;
+}
+
+/* メニュー画像・一覧画像の上に重ねる透明リンク */
+#menu a,
+.page a {
+    position: absolute;
+    display: block;
+}
+
+#menu a {
+    left: 0;
+    width: 80px;
+    height: 20px;
+}
+
+#contents {
+    position: absolute;
+    top: 162px;
+    left: 220px;
+}
+
+.page {
+    display: none;
+    position: relative;
+}
+
+.page.flow {
+    padding: 8px;
+}
+
+.page a img {
+    display: block;
+    border: 0;
+    opacity: 0;
+}
+
+.imageForwardLoading {
+    display: none;
+}
